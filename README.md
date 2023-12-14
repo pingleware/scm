@@ -46,6 +46,6 @@ Key components and features of a typical supply chain management system include:
 
 Implementing an effective supply chain management system can lead to benefits such as cost reduction, improved efficiency, faster response to market changes, enhanced customer satisfaction, and better overall competitiveness in the marketplace. Advanced technologies like blockchain, artificial intelligence, and the Internet of Things (IoT) are increasingly being integrated into SCM systems to further enhance their capabilities.
 
-## Integration with BestBooks&trade; Accounting Application Framework
+![s](assets/screenshots/screenshot-default.png)
 
-See [https://github.com/pingleware/bestbooks-helper](https://github.com/pingleware/bestbooks-helpers)s
+![s](assets/screenshots/screenshot-customer.png)
