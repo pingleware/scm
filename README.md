@@ -48,7 +48,7 @@ Implementing an effective supply chain management system can lead to benefits su
 
 ## About
 
-This version is rearchietctured for node-electron using sqlite database.
+This version is rearchietctured for node-electron using sqlite database with intergration with[ BestBooks ™Accounting Application Framework.](https://github.com/pingleware/bestbooks-helpers)
 
 ![s](assets/screenshots/screenshot-default.png)
 
