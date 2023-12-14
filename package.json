@@ -1,0 +1,49 @@
+{
+  "name": "scm",
+  "version": "1.0.0",
+  "description": "Supply Chain Management",
+  "main": "index.js",
+  "build": {
+    "appId": "work.pingleware.scm",
+    "buildVersion": "1",
+    "productName": "Supply Chain Management",
+    "copyright": "Copyright © 2023 PRESSPAGE ENTERTAINMENT INC",
+    "mac": {
+      "target": "mas",
+      "type": "distribution",
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false,
+      "category": "public.app-category.business",
+      "icon": "assets/logo.icns",
+      "entitlements": "build/entitlements.mas.plist",
+      "entitlementsInherit": "build/entitlements.mas.inherit.plist",
+      "provisioningProfile": "build/Supply_Chain_Management.provisionprofile"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist:mac": "electron-builder --mac --universal",
+    "dist:win": "electron-builder --win --universal",
+    "dist:snap": "electron-builder --linux --snap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pingleware/scm.git"
+  },
+  "keywords": [],
+  "author": "PRESSPAGE ENTERTAINMENT INC dba PINGLEWARE <maintainers@pingleware.work>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://pingleware.support"
+  },
+  "homepage": "https://github.com/pingleware/scm#readme",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
