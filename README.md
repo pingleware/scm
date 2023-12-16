@@ -71,3 +71,7 @@ the Supplier panel,
 the Purchase panel,
 
 ![s](assets/screenshots/screenshot-purchase.png)
+
+the Report panel,
+
+![s](assets/screenshots/screenshot-report.png)
